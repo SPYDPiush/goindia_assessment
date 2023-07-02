@@ -1,0 +1,28 @@
+.sidebar {
+    width: 60px; /* Set the initial width of the sidebar */
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: width 0.3s ease; /* Add a transition for smooth animation */
+  }
+  
+  .sidebar.open {
+    width: 250px; /* Set the width when the sidebar is open */
+  }
+  
+  .side-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styling for the sidebar content */
+  
